@@ -1,6 +1,27 @@
-# ngproject
+# Google speed test 98%.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+# Angular full starter with
+- Angular universal
+- Progressive web app
+- Service workers
+- I18N
+- Interceptors
+- Model-adapter example for api data handling
+- Performance boosted
+- Bootstrap
+- Angular material
+- IVY compiler
+- AOT
+- No trash, only whats needed to work with complex projects.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+
+## Demo :
+http://46.101.4.97:5200/
+
+## Blog - getting started : 
+
+https://medium.com/@andriusdeveloper/advanced-angular-10-full-starter-2b0ae7226301 
 
 ## Development server
 
@@ -13,6 +34,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Build with server side rendering :
+- Production : `npm run build:ssr`
+
+- Staging : `npm run build:ssr-dev`
+
+## Running server side rendered app : 
+- `node dist/ngproject/server/main.js`. Open up : http://localhost:5200/
 
 ## Running unit tests
 

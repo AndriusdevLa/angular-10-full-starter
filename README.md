@@ -9,6 +9,8 @@
 - Performance boosted
 - Bootstrap
 - Angular material
+- IVY compiler
+- AOT
 - No trash, only whats needed to work with complex projects.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.

@@ -1,0 +1,17 @@
+label:not(.custom-control-label):not(.mat-slide-toggle-label):not(.mat-radio-label) {
+    margin-bottom:4px;
+    background: $secondary-color;
+    z-index: 15;
+    @include fontRegular($font-medium-md, $text-label-color, 18px);
+  
+    .required {
+      color: $error-color;
+    }
+  
+    .info {
+      margin-left: 5px;
+      font-size: $font-medium-md;
+      color: inherit;
+    }
+  }
+  

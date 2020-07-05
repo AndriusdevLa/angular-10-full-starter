@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+img:not([src]):not([srcset]) {
+  visibility: hidden;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size:$font-medium-md;
+  &.btn {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}
+
+
+button {
+  outline: 0;
+
+  &:hover {
+    outline: 0;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+
+button:focus {outline:0 !important};
+li,a:focus {outline:0 !important};
+

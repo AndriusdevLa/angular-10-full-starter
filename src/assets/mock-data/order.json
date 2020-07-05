@@ -1,0 +1,222 @@
+{
+  "canceledOrderItems": [
+    {
+      "description": "Item description",
+      "id": 0,
+      "invoiceStatus": "None",
+      "modified": "2020-06-19T10:53:55.420Z",
+      "modifiedBy": "Admin",
+      "name": "Turbo charger, New",
+      "paymentStatus": "NotPaid",
+      "refNumber": "486ASD684ASD8",
+      "sellingPrice": {
+        "confirmed": true,
+        "coreCharge": 0,
+        "coreChargeApplied": true,
+        "estimatedDelivery": {
+          "from": "2020-06-19T10:53:55.420Z",
+          "fromInDays": 12,
+          "to": "2020-06-28T10:53:55.420Z",
+          "toInDays": 18
+        },
+        "id": 868468468468,
+        "orderItemType": "None",
+        "price": 12000,
+        "refNumber": "ASDDA684AS86D86A",
+        "terms": "ASDAS54656",
+        "totalPrice": 12000
+      },
+      "sellingPrices": [
+        {
+          "confirmed": true,
+          "coreCharge": 0,
+          "coreChargeApplied": true,
+          "estimatedDelivery": {
+            "from": "2020-06-19T10:53:55.420Z",
+            "fromInDays": 16,
+            "to": "2020-06-29T10:53:55.420Z",
+            "toInDays": 19
+          },
+          "id": 0,
+          "orderItemType": "None",
+          "price": 12000,
+          "refNumber": "ASD86468",
+          "terms": "ASD6846886",
+          "totalPrice": 12000
+        }
+      ],
+      "status": "Searching",
+      "subItems": [
+        {
+          "id": 0,
+          "name": "USED, PAINTED",
+          "quantity": 1
+        }
+      ],
+      "type": "None"
+    }
+  ],
+  "car": {
+    "brand": "Brand",
+    "licensePlate": "AS46D8468",
+    "model": "Model",
+    "vin": "vin156",
+    "year": "2008"
+  },
+  "confirmedOrderItems": [
+    {
+      "description": "string",
+      "id": 0,
+      "invoiceStatus": "None",
+      "modified": "2020-06-19T10:53:55.420Z",
+      "modifiedBy": "string",
+      "name": "string",
+      "paymentStatus": "NotPaid",
+      "refNumber": "string",
+      "sellingPrice": {
+        "confirmed": true,
+        "coreCharge": 0,
+        "coreChargeApplied": true,
+        "estimatedDelivery": {
+          "from": "string",
+          "fromInDays": 0,
+          "to": "string",
+          "toInDays": 0
+        },
+        "id": 0,
+        "orderItemType": "None",
+        "price": 0,
+        "refNumber": "string",
+        "terms": "string",
+        "totalPrice": 0
+      },
+      "sellingPrices": [
+        {
+          "confirmed": true,
+          "coreCharge": 0,
+          "coreChargeApplied": true,
+          "estimatedDelivery": {
+            "from": "string",
+            "fromInDays": 0,
+            "to": "string",
+            "toInDays": 0
+          },
+          "id": 0,
+          "orderItemType": "None",
+          "price": 0,
+          "refNumber": "string",
+          "terms": "string",
+          "totalPrice": 0
+        }
+      ],
+      "status": "Searching",
+      "subItems": [
+        {
+          "id": 0,
+          "name": "string",
+          "quantity": 0
+        }
+      ],
+      "type": "None"
+    }
+  ],
+  "created": "2020-06-19T10:53:55.420Z",
+  "currency": "EUR",
+  "customer": {
+    "address": "string",
+    "contactInfo": "string",
+    "email": "string",
+    "id": 0,
+    "modified": "2020-06-19T10:53:55.420Z",
+    "modifiedBy": "string",
+    "name": "string",
+    "phone": "string"
+  },
+  "id": 0,
+  "modified": "2020-06-19T10:53:55.420Z",
+  "modifiedBy": "string",
+  "number": "string",
+  "offeredOrderItems": [
+    {
+      "description": "string",
+      "id": 0,
+      "invoiceStatus": "None",
+      "modified": "2020-06-19T10:53:55.420Z",
+      "modifiedBy": "string",
+      "name": "string",
+      "paymentStatus": "NotPaid",
+      "refNumber": "string",
+      "sellingPrice": {
+        "confirmed": true,
+        "coreCharge": 0,
+        "coreChargeApplied": true,
+        "estimatedDelivery": {
+          "from": "string",
+          "fromInDays": 0,
+          "to": "string",
+          "toInDays": 0
+        },
+        "id": 0,
+        "orderItemType": "None",
+        "price": 0,
+        "refNumber": "string",
+        "terms": "string",
+        "totalPrice": 0
+      },
+      "sellingPrices": [
+        {
+          "confirmed": true,
+          "coreCharge": 0,
+          "coreChargeApplied": true,
+          "estimatedDelivery": {
+            "from": "string",
+            "fromInDays": 0,
+            "to": "string",
+            "toInDays": 0
+          },
+          "id": 0,
+          "orderItemType": "None",
+          "price": 0,
+          "refNumber": "string",
+          "terms": "string",
+          "totalPrice": 0
+        }
+      ],
+      "status": "Searching",
+      "subItems": [
+        {
+          "id": 0,
+          "name": "string",
+          "quantity": 0
+        }
+      ],
+      "type": "None"
+    }
+  ],
+  "payments": [
+    {
+      "createdAt": "2020-06-19T10:53:55.420Z",
+      "details": "string",
+      "id": 0,
+      "type": "Gateway"
+    }
+  ],
+  "salesManager": {
+    "email": "string",
+    "id": 0,
+    "modified": "2020-06-19T10:53:55.420Z",
+    "modifiedBy": "string",
+    "name": "string",
+    "phone": "string"
+  },
+  "status": "Initiated",
+  "totals": {
+    "coreCharge": 0,
+    "discount": 0,
+    "itemsPrice": 0,
+    "left": 0,
+    "paid": 0,
+    "total": 0,
+    "totalWithoutDiscount": 0
+  }
+}

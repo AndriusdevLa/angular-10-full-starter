@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12" style="padding-top: 100px">
+            <h2 style="text-align:center">{{'hello' | translate}}</h2>
+            <p style="text-align:center">Change the language and try to inspect the source of this page via incognito mode.</p>
+            <form>
+                <div class="d-flex align-center justify-content-center">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Language</mat-label>
+                        <mat-select (selectionChange)="languageChange($event)" [formControl]="selectedLanguage" name="language">
+                          <mat-option *ngFor="let item of languages" [value]="item.value">
+                            {{item.label}}
+                          </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>

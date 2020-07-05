@@ -1,0 +1,88 @@
+
+    @font-face {
+      font-family: Muli-Light;
+      src: url('./../fonts/Muli-Light.ttf');
+      font-display: swap
+  }
+
+    @font-face {
+      font-family: Muli-Regular;
+      src: url('./../fonts/Muli-Regular.ttf');
+      font-display: swap
+  }
+  
+  @font-face {
+      font-family: Muli-Medium;
+      src: url('./../fonts/Muli-Medium.ttf');
+      font-display: swap;
+  }
+
+  @font-face {
+    font-family: Muli-SemiBold;
+    src: url('./../fonts/Muli-SemiBold.ttf');
+    font-display: swap;
+}
+
+  
+  @font-face {
+      font-family: Muli-Bold;
+      src: url('./../fonts/Muli-Bold.ttf');
+      font-display: swap;
+  }
+
+  @font-face {
+    font-family: Muli-ExtraBold;
+    src: url('./../fonts/Muli-ExtraBold.ttf');
+    font-display: swap;
+}
+
+  @mixin fontLight($size: false, $colour: false, $lh: false, $ls: false) {
+    font-family: Muli-Light;
+      @if $size { font-size: $size; }
+      @if $colour { color: $colour; }
+      @if $lh { line-height: $lh; }
+      @if $ls { letter-spacing: $ls; }
+  }
+
+  
+  @mixin fontRegular($size: false, $colour: false,  $lh: false, $ls: false) {
+    font-family: Muli-Regular;
+      @if $size { font-size: $size; }
+      @if $colour { color: $colour; }
+      @if $lh { line-height: $lh; }
+      @if $ls { letter-spacing: $ls; }
+  }
+
+  @mixin fontMedium($size: false, $colour: false,  $lh: false, $ls: false) {
+    font-family: Muli-Medium;
+      @if $size { font-size: $size; }
+      @if $colour { color: $colour; }
+      @if $lh { line-height: $lh; }
+      @if $ls { letter-spacing: $ls; }
+      font-weight: 500 !important;
+  }
+  
+  @mixin fontSemiBold($size: false, $colour: false,  $lh: false, $ls: false) {
+    font-family: Muli-SemiBold;
+      @if $size { font-size: $size; }
+      @if $colour { color: $colour; }
+      @if $lh { line-height: $lh; }
+      @if $ls { letter-spacing: $ls; }
+      font-weight: 500 !important;
+  }
+  
+  @mixin fontBold($size: false, $colour: false,  $lh: false, $ls: false) {
+    font-family: Muli-Bold;
+      @if $size { font-size: $size; }
+      @if $colour { color: $colour; }
+      @if $lh { line-height: $lh; }
+      @if $ls { letter-spacing: $ls; }
+  }
+
+  @mixin fontExtraBold($size: false, $colour: false,  $lh: false, $ls: false) {
+    font-family: Muli-ExtraBold;
+      @if $size { font-size: $size; }
+      @if $colour { color: $colour; }
+      @if $lh { line-height: $lh; }
+      @if $ls { letter-spacing: $ls; }
+  }

@@ -1,0 +1,132 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+@import 'base/fonts';
+
+.btn {
+    height: 50px;
+    border-radius: 5.5px;
+    @include fontBold($font-medium-lg, $text-primary-color, 18px);
+    border: 0;
+    transition: all 0.3s;
+  
+    img {
+      transition: ease 0.3s;
+    }
+  
+    &:hover,
+    :focus {
+      box-shadow: none;
+      outline: none;
+      border-color: transparent;
+  
+      img {
+        transform: scale(1.2);
+      }
+    }
+  
+    @include media-breakpoint-down(md) {
+      box-shadow: none;
+    }
+  
+    @include media-breakpoint-down(sm) {
+      &:hover {
+        transform: none;
+        box-shadow: none;
+      }
+    }
+
+}
+
+.btn-primary {
+    background: $primary-color;
+    color: $text-secondary-color;
+    border-radius:60px;
+    padding-left:36px;
+    padding-right:36px;
+    &:hover,
+    :focus {
+      box-shadow: unset;
+      outline: none;
+      outline-color: transparent;
+    }
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  border-radius:60px;
+  background: $unactive-background-color;
+  color: $text-disabled-color;
+}
+
+.btn-secondary {
+    background: $secondary-color;
+    color: $primary-color;
+    border:1px solid $primary-color;
+    border-radius:60px;
+    padding-left:36px;
+    padding-right:36px;
+    &:hover,
+    :focus {
+      background:$primary-color;
+      color:$text-secondary-color;
+      box-shadow: unset;
+      outline: none;
+      outline-color: transparent;
+    }
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  border-radius:60px;
+  background: $secondary-color;
+  color: $text-disabled-color;
+  border:1px solid $unactive-background-color;
+}
+
+
+.btn-accent {
+    background: transparent;
+    border:1px solid $text-primary-color;
+    border-radius:60px;
+    padding-left:36px;
+    padding-right:36px;
+
+    @include fontBold($font-medium-lg, $text-primary-color, 18px);
+
+    &:hover,
+    :focus {
+      background: transparent;
+      color: $text-primary-color;
+      border:1px solid $text-primary-color;
+      box-shadow: unset;
+      outline: none;
+      outline-color: transparent;
+    }
+
+}
+
+.btn-with-icon {
+    @include flexBlock(false, center);
+    img {
+        margin-right: 11px;
+    }
+
+    &.small {
+        height:48px;
+
+        img {
+            margin-right:8px;
+        }
+    }
+}
+
+.btn-accent.disabled,
+.btn-accent:disabled {
+  border-radius:60px;
+  background: $secondary-color;
+  color: $text-disabled-color;
+  border:1px solid $unactive-background-color;
+}
+

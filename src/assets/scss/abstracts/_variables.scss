@@ -1,0 +1,62 @@
+// Public variables - primary colors
+
+$primary-color:#CA181F;
+$secondary-color:#FFFFFF;
+$main-background-color:#FAFAFA;
+$unactive-background-color:#F3F3F3;
+$text-primary-color:#160D0D;
+$text-disabled-color:#B6B6B6;
+$text-secondary-color:#FFFFFF;
+$text-accent-color:#CA181F;
+$text-label-color:#939393;
+$text-important-color:#000000;
+
+// Public variables - status colors
+
+$confirmed: #515151;
+$shiped: #4030F1;
+$received: #FD8C07;
+$delivered:#1EB162;
+$paid:#1EB162;
+$halfpaid:#B6B6B6;
+
+// Public variables - icon height x width
+
+$iconHeigth:24px;
+$iconWidth:24px;
+
+// Public variables - border radius
+
+$button-border-radius:60px;
+$status-border-radius:3px;
+$input-border-radius:3px;
+$card-border-radius:3px;
+$accordion-border-radius:30px;
+
+// Public variables - box shadows 
+
+$primary-box-shadow:0px 12px 30px rgba(0, 0, 0, 0.06);
+$secondary-box-shadow:0px 12px 30px rgba(0, 0, 0, 0.06);
+
+// Seperators 
+
+$seperator-color: #E4E4E4;
+
+
+// Borders 
+
+$primary-border-color:#160D0D;
+$secondary-border-color:#E4E4E4;
+
+// Font sizes :
+
+$font-medium-xs:11px;
+$font-medium-md:13px;
+$font-medium-lg:15px;
+$font-medium-xl:17px;
+
+// Alerts 
+
+$info-color: #292A38;
+$success-color: #09C693;
+$error-color: #FD6565;

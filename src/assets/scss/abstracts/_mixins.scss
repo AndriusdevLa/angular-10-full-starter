@@ -1,0 +1,21 @@
+
+// Flex mixins
+@mixin flexBlock($justify: false, $align: false) {
+  display: flex;
+  @if $justify { justify-content: $justify; }
+  @if $align { align-items: $align; }
+}
+
+@mixin flexInlineBlock($justify: false, $align: false) {
+  display: inline-flex;
+  @if $justify { justify-content: $justify; }
+  @if $align { align-items: $align; }
+}
+
+@mixin position($position: false, $top: false, $left: false, $bottom: false, $right: false) {
+  @if $position { position: $position}
+  @if $top { top: $top; }
+  @if $left { left: $left; }
+  @if $bottom { bottom: $bottom; }
+  @if $right { right: $right; }
+}

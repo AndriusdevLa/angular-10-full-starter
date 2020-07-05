@@ -1,0 +1,4 @@
+<button (click)="click()" [type]="cType" class="btn {{classes}}" [disabled]="disabled || loading">
+  <loader *ngIf="loading" [width]="16" [height]="16" borderColor="#fff"></loader>
+  <ng-content *ngIf="!loading"></ng-content>
+</button>

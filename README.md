@@ -31,7 +31,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 - Staging : `npm run build:ssr-dev`
 
 ## Running server side rendered app : 
-- `node dist/ngproject/server/main.js`
+- `node dist/ngproject/server/main.js`. Open up : http://localhost:5200/
 
 ## Running unit tests
 
